@@ -2,8 +2,8 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "pybind11_bazel",
-    strip_prefix = "pybind11_bazel-fc56ce8a8b51e3dd941139d329b63ccfea1d304b",
-    urls = ["https://github.com/pybind/pybind11_bazel/archive/fc56ce8a8b51e3dd941139d329b63ccfea1d304b.zip"],
+    strip_prefix = "pybind11_bazel-master",
+    urls = ["https://github.com/pybind/pybind11_bazel/archive/master.zip"],
 )
 
 # We still require the pybind library.

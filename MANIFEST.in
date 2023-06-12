@@ -1,0 +1,3 @@
+graft src
+include WORKSPACE
+recursive-exclude __pycache__
