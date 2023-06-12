@@ -1,0 +1,20 @@
+[build-system]
+requires = ['setuptools', 'setuptools_scm', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name="cpputils"
+dependencies = []
+dynamic = ['version']
+
+[tool.setuptools.dynamic]
+version = {attr="cpputils._version.version"}
+
+[tool.setuptools_scm]
+write_to = "src/cpputils/_version.py"
+
+[tool.black]
+line-length = 80
+
+[tool.ruff]
+line-length = 80
